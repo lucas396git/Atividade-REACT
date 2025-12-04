@@ -1,0 +1,60 @@
+:root {
+  color-scheme: light dark;
+}
+
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+}
+
+.field {
+  display: grid;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: transparent;
+}
+
+fieldset.field {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.8rem;
+}
+
+.radios {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.submit {
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #646cff;
+  color: white;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #5156d8;
+}
